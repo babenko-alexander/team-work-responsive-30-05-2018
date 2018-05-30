@@ -3,5 +3,110 @@
     padding: 2.5rem 1.875rem 1.875rem;
 }
 .wrapper-whowe > .h2-title {
-    margin-bottom: 2.5rem;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 2.25rem;
+}
+.wrapper-whowe > .p-sub-title {
+    line-height: 2rem;
+}
+.hiden-text {
+    display: none;
+}
+.wrapper-whowe > .h2-title:after {
+    margin-top: 1.25rem;
+}
+.wrapper-tour{
+    background-color: #f6f6f8;
+    padding: 2.5rem 1.875rem 1.5rem;
+}
+.wrapper-tour > .h2-title {
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 2.25rem;
+}
+.wrapper-tour > .h2-title:after {
+    margin-top: 1.25rem;
+}
+.wrapper-tour > .p-sub-title {
+    margin-bottom: 1.625rem;
+}
+
+.tour-item {
+    margin-bottom: 1rem;
+}
+.tour-item:last-child {
+    margin-bottom: 0;
+}
+.tour-icon {
+    margin-bottom: 1.5rem;
+}
+.tour-title {
+    color: #d5423a;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.375rem;
+}
+.tour-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #525151;
+}
+
+@media (min-width: 768px) {
+    .hiden-text {
+        display: inline;
+    }
+    .wrapper-whowe > .h2-title {
+        font-size: 3.44rem;
+        font-weight: 300;
+    }
+    .wrapper-tour > .h2-title {
+        font-size: 3.44rem;
+        font-weight: 300;
+    }
+    .tour-box {
+        padding: 1.5rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+    .tour-item {
+        flex-basis: 40%;
+    }
+    .i-one {
+        order: -1;
+    }
+    .i-three {
+        order: -2;
+    }
+    .i-five {
+        order: -1;
+    }
+}
+@media (min-width: 1024px) {
+    .tour-box {
+        padding: 4rem 0 3rem;
+    }
+    .tour-item {
+        flex-basis: 30%;
+    }
+    .i-one {
+        order: -1;
+    }
+    .i-three {
+        order: -2;
+    }
+    .i-four {
+        order: -1;
+    }
+    .i-five {
+        order: -1;
+    }
 }
