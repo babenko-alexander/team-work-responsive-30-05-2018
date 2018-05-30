@@ -41,6 +41,7 @@ img {
     height: 0.125rem;
     background-color: #d5423a;
     margin-top: 1.313rem;
+    margin: auto;
 }
 .p-sub-title {
     font-family: 'Source Sans Pro', sans-serif;
