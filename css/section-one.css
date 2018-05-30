@@ -2,36 +2,36 @@
     background-color: #fff;
     padding: 2.5rem 1.875rem 1.875rem;
 }
-.wrapper-whowe > .h2-title {
+.wrapper-whowe .h2-title {
     font-size: 1.75rem;
     font-weight: 400;
     margin-bottom: 2.25rem;
 }
-.wrapper-whowe > .p-sub-title {
+.wrapper-whowe .p-sub-title {
     line-height: 2rem;
 }
 .hiden-text {
     display: none;
 }
-.wrapper-whowe > .h2-title:after {
+.wrapper-whowe .h2-title:after {
     margin-top: 1.25rem;
 }
 .wrapper-tour{
     background-color: #f6f6f8;
     padding: 2.5rem 1.875rem 1.5rem;
 }
-.wrapper-tour > .h2-title {
+.wrapper-tour .h2-title {
     font-size: 1.75rem;
     font-weight: 400;
     margin-bottom: 2.25rem;
 }
-.wrapper-tour > .h2-title:after {
+.wrapper-tour .h2-title:after {
     margin-top: 1.25rem;
 }
-.wrapper-tour > .p-sub-title {
+.wrapper-tour .p-sub-title {
     margin-bottom: 1.625rem;
+    line-height: 2rem;
 }
-
 .tour-item {
     margin-bottom: 1rem;
 }
@@ -56,19 +56,29 @@
     font-size: 1.125rem;
     text-align: center;
     color: #525151;
+    line-height: 2rem;
 }
 
 @media (min-width: 768px) {
     .hiden-text {
         display: inline;
     }
-    .wrapper-whowe > .h2-title {
+    .wrapper-whowe .h2-title {
         font-size: 3.44rem;
         font-weight: 300;
     }
-    .wrapper-tour > .h2-title {
+    .wrapper-tour .h2-title {
         font-size: 3.44rem;
         font-weight: 300;
+    }
+    .wrapper-whowe .p-sub-title {
+        font-size: 1.125rem;
+    }
+    .wrapper-tour .p-sub-title {
+        font-size: 1.125rem;
+    }
+    .tour-text {
+        font-size: 1rem;
     }
     .tour-box {
         padding: 1.5rem 0;
