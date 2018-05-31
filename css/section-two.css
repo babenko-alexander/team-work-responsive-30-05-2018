@@ -1,0 +1,170 @@
+.testimonial{
+    text-align: center;
+    background-color: #fff;
+    padding: 2.5rem 0;
+}
+.hexagon{
+    display: none;
+    margin-bottom: 2rem;
+}
+.top-title{
+    margin-bottom: 1.5rem;
+}
+.name-call{
+    display: none;
+    color: #d5423a;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.events{
+    text-align: center;
+    background-image: url(../img/background/bg-g.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2rem 0 1rem;
+}
+.card-item{
+    margin: 0 auto 1.5rem;
+}
+.card-item:last-child{
+    margin-bottom: 0;
+}
+.address-body{
+    position: relative;
+    padding: 2rem 0.9rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    /*max-width:23.125rem;*/
+    margin: auto;
+}
+.whitee{
+    color: #ffffff;
+    margin-bottom: 2.5rem;
+}
+.card-cont{
+    color: #d5423a;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.contact-p{
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 0.2rem;
+}
+.contact-p:last-of-type{
+    margin-bottom: 0;
+}
+.fas{
+    margin-right:1rem;
+}
+.item-pic{
+    width: 100%;
+}
+@media(min-width: 768px){
+    .hexagon{
+        display: block;
+    }
+    .name-call{
+        display: block;
+    }
+    .article{
+        width: 70%;
+        margin: auto;
+        position: relative;
+    }
+    .card-body{
+        width: 60%;
+        margin: auto;
+    }
+}
+@media(min-width: 1024px) {
+    .article:before{
+        font-family: "Font Awesome 5 Free";
+        content: "\f053";
+        font-style: normal;
+        font-weight: 700;
+        text-decoration: inherit;
+        display: block;
+        font-size: 5rem;
+        color: #d3d3d3;
+        position: absolute;
+        top: 50%;
+        left: -13rem;
+    }
+    .article:after{
+        font-family: "Font Awesome 5 Free";
+        content: "\f054";
+        font-style: normal;
+        font-weight: 700;
+        text-decoration: inherit;
+        display: block;
+        font-size: 5rem;
+        color: #d3d3d3;
+        position: absolute;
+        top: 50%;
+        left: 50rem;
+    }
+    .top-title{
+        font-size: 3.4375rem;
+    }
+    .testimonial{
+        margin-bottom: 8rem;
+    }
+    .article{
+        width: 55%;
+    }
+    .whitee{
+        font-size: 3.4375rem;
+    }
+    .card-body{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+    }
+    .card-item{
+        flex-basis:31%;
+    }
+    .radius-button{
+        position: absolute;
+        width: 3.25rem;
+        height: 3.25rem;
+        background-color: #b13d37;
+        border-radius:82% 7% 0 7%;
+        left: calc(100% - 3.25rem);
+        top: calc(100% - 3.25rem);
+    }
+    .plus{
+        line-height:3.25rem;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+    }
+}
