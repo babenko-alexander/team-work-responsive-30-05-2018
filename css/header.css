@@ -1,0 +1,112 @@
+.wrapper-header {
+    background-image: url('../img/background/bg-w.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    /*padding: 5.625rem 0 14.88rem 0;*/
+    padding: 5.625rem 0 15.5rem 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-logo {
+    margin-bottom: 5.313rem;
+}
+
+.menu-item {
+    display: none;
+}
+
+.logo {
+    display: block;
+    width: 9.25rem;
+    height: 9.25rem;
+    background-image: url('../img/icons/main-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.75rem;
+    line-height: 3.125rem;
+    width: 16rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title-red-bold {
+    font-weight: 900;
+    color: #d54139;
+}
+
+.btn-header {
+    background-color: #d54139;
+    color: #fff;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: .925rem;
+    padding: 1.125rem 3.25rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .wrapper-header {
+        padding: 3.188rem 0 13rem 0;
+    }
+
+    .header-title {
+        font-size: 3.75rem;
+        line-height: 6rem;
+        width: 35rem;
+        font-weight: 300;
+        margin-bottom: 3.75rem;
+    }
+
+    .menu-logo {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper-header {
+        padding: 3.188rem 0 16rem 0;
+    }
+
+    .menu-logo {
+        width: 100%;
+        margin-bottom: 7rem;
+    }
+
+    .menu-logo-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-item {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: .95rem;
+    }
+
+    .header-title {
+        margin-bottom: 1.25rem;
+    }
+}
