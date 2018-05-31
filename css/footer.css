@@ -1,0 +1,103 @@
+.wrapper-form{
+    background-color: #f0f0f0;
+    padding: 4rem 0rem 0rem;
+}
+.contact{
+    background-color: #fff;
+    padding: 1rem;
+    color: #333333;
+    border-color: #cccccc;
+}
+#name,#email,#phone-number{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 0.0625rem solid #cccccc;
+    margin-bottom: 0.5rem;
+    outline: none;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+#tour-package{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 0.0625rem solid #cccccc;
+    margin: 0rem 0rem 4rem ;
+    outline: none;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+#message{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 0.0625rem solid #cccccc;
+    margin: 0rem 0rem 2.5rem ;
+    outline: none;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+
+[value='Send'] {
+    padding: 0.5rem 2rem;
+    background-color: #d5423a  ;
+    border: none;
+    border-radius: 2rem;
+    color: #ffff;
+    cursor: pointer;
+    align-items: center;
+    text-transform: uppercase;
+    display: block;
+}
+.title-contact {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 3.4375rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+.title-contact:after {
+    content: '';
+    display: block;
+    width: 9.37rem;
+    height: 0.125rem;
+    background-color: #d5423a;
+    margin: 1.313rem auto 7rem;
+}
+.foot-info{
+    padding: 2rem 1rem;
+    background-color: #000000;
+    color: #626262;
+}
+
+@media (min-width: 720px){
+
+    [value='Send'] {
+        display: block;
+        margin: auto;
+  padding: 0.75rem 4rem;
+
+    }
+    .foot-info{
+        display: flex;
+    justify-content: space-between;
+    }
+.text-foot{
+    display: block;
+    flex-basis: 40%;
+}
+.form-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.name-email{
+    flex-basis: 40%;
+}
+.phone-tour{
+    flex-basis: 40%;
+}
+}
