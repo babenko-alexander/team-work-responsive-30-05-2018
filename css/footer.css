@@ -2,6 +2,9 @@
     background-color: #f0f0f0;
     padding: 4rem 0rem 0rem;
 }
+.footer{
+    background-color: #000000;
+}
 .contact{
     background-color: #fff;
     padding: 1rem;
@@ -55,7 +58,7 @@
 .title-contact {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 3.4375rem;
+    font-size: 1.75rem;
     text-align: center;
     text-transform: uppercase;
     color: #333333;
@@ -66,7 +69,7 @@
     width: 9.37rem;
     height: 0.125rem;
     background-color: #d5423a;
-    margin: 1.313rem auto 7rem;
+    margin: 1.313rem auto 4rem;
 }
 .foot-info{
     padding: 2rem 1rem;
@@ -76,10 +79,15 @@
 
 @media (min-width: 720px){
 
+    .contact{
+        font-size:1.125rem;
+
+    }
     [value='Send'] {
         display: block;
         margin: auto;
   padding: 0.75rem 4rem;
+        font-size: 1.125rem;
 
     }
     .foot-info{
@@ -97,7 +105,18 @@
 .name-email{
     flex-basis: 40%;
 }
-.phone-tour{
+.phone-tour {
     flex-basis: 40%;
 }
+    .title-contact {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 3.44rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: #333333;
 }
+    .title-contact:after {
+        margin-bottom: 5rem;
+    }
+    }
